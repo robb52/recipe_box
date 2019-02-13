@@ -56,11 +56,13 @@ body {
 }
 
 a.nav-recipe {
+  position: absolute;
   text-decoration: none;
   color: #8c9091;
 }
 
 a.nav-sign {
+  margin-left: 100px;
   text-decoration: none;
   color: #8c9091;
 }
@@ -142,12 +144,14 @@ a.nav-sign {
   margin-top: 15px;
 }
 .form-input {
-  width: 65% !important;
+  width: 300px !important;
   float: left;
+  margin-left: 10px;
 }
 .form-button {
+  margin-top: 10px;
   float: right;
-  width: 40% !important;
+  width: 20% !important;
   margin-left: 5%;
 }
 .add-button {
